@@ -7,3 +7,8 @@ Assets credit: Unity Asset Store
 Interior - Low Poly Asset Pack by ithappy
 
 Material credit: Quixel.com
+
+
+
+# You Need Bakery to do lightmap in this project
+https://assetstore.unity.com/packages/tools/level-design/bakery-gpu-lightmapper-122218
