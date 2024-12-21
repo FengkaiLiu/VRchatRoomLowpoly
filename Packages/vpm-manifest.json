@@ -1,29 +1,19 @@
 {
   "dependencies": {
-    "com.vrchat.base": {
-      "version": "3.7.4"
-    },
-    "com.vrchat.worlds": {
-      "version": "3.7.4"
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
     "dev.onevr.vrworldtoolkit": {
       "version": "3.2.0"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5"
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.23"
     }
   },
   "locked": {
-    "com.vrchat.base": {
-      "version": "3.7.4",
-      "dependencies": {}
-    },
-    "com.vrchat.worlds": {
-      "version": "3.7.4",
-      "dependencies": {
-        "com.vrchat.base": "3.7.4"
-      }
-    },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
@@ -31,6 +21,29 @@
     "dev.onevr.vrworldtoolkit": {
       "version": "3.2.0",
       "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5",
+      "dependencies": {
+        "com.vrchat.base": "3.7.5"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.7.5",
+      "dependencies": {}
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.23",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4",
+        "dev.architech.sdk": ">=0.16.1 <1"
+      }
+    },
+    "dev.architech.sdk": {
+      "version": "0.18.1",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4"
+      }
     }
   }
 }

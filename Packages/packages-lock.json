@@ -251,6 +251,18 @@
       "dependencies": {},
       "hash": "4be848dcec4fe413029313cb5839a23482f482aa"
     },
+    "dev.architech.protv": {
+      "version": "file:dev.architech.protv",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.architech.sdk": {
+      "version": "file:dev.architech.sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "dev.onevr.vrworldtoolkit": {
       "version": "file:dev.onevr.vrworldtoolkit",
       "depth": 0,
